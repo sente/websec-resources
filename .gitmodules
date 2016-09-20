@@ -31,3 +31,12 @@
 [submodule "GitTools"]
 	path = GitTools
 	url = https://github.com/internetwache/GitTools
+[submodule "dirfuzz"]
+	path = dirfuzz
+	url = https://github.com/ring04h/dirfuzz
+[submodule "findmyhash"]
+	path = findmyhash
+	url = https://github.com/frdmn/findmyhash
+[submodule "ruby-dirfuzz"]
+	path = ruby-dirfuzz
+	url = https://github.com/matugm/dirfuzz

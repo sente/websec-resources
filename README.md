@@ -11,3 +11,6 @@
 * https://github.com/aboul3la/Sublist3r
 * https://github.com/mazen160/bfac
 * https://github.com/internetwache/GitTools
+* https://github.com/ring04h/dirfuzz
+* https://github.com/frdmn/findmyhash
+* https://github.com/matugm/dirfuzz (renamed ruby-dirfuzz)
