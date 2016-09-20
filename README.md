@@ -14,3 +14,6 @@
 * https://github.com/ring04h/dirfuzz
 * https://github.com/frdmn/findmyhash
 * https://github.com/matugm/dirfuzz (renamed ruby-dirfuzz)
+* https://github.com/laramies/theHarvester
+* https://github.com/trustedsec/ptf
+

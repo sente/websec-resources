@@ -40,3 +40,9 @@
 [submodule "ruby-dirfuzz"]
 	path = ruby-dirfuzz
 	url = https://github.com/matugm/dirfuzz
+[submodule "theHarvester"]
+	path = theHarvester
+	url = https://github.com/laramies/theHarvester
+[submodule "ptf"]
+	path = ptf
+	url = https://github.com/trustedsec/ptf
