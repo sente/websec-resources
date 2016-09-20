@@ -13,3 +13,6 @@
 [submodule "SecTools"]
 	path = SecTools
 	url = https://github.com/xl7dev/SecTools
+[submodule "Penetration-Testing-Toolkit"]
+	path = Penetration-Testing-Toolkit
+	url = https://github.com/xl7dev/Penetration-Testing-Toolkit
