@@ -10,3 +10,6 @@
 [submodule "routersploit"]
 	path = routersploit
 	url = https://github.com/reverse-shell/routersploit
+[submodule "SecTools"]
+	path = SecTools
+	url = https://github.com/xl7dev/SecTools
