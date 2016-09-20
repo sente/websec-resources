@@ -9,3 +9,5 @@
 * https://github.com/xl7dev/LaZagne
 * https://github.com/styx00/Apache-Vulns
 * https://github.com/aboul3la/Sublist3r
+* https://github.com/mazen160/bfac
+* https://github.com/internetwache/GitTools

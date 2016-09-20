@@ -25,3 +25,9 @@
 [submodule "Sublist3r"]
 	path = Sublist3r
 	url = https://github.com/aboul3la/Sublist3r
+[submodule "bfac"]
+	path = bfac
+	url = https://github.com/mazen160/bfac
+[submodule "GitTools"]
+	path = GitTools
+	url = https://github.com/internetwache/GitTools
