@@ -19,3 +19,9 @@
 [submodule "LaZagne"]
 	path = LaZagne
 	url = https://github.com/xl7dev/LaZagne
+[submodule "Apache-Vulns"]
+	path = Apache-Vulns
+	url = https://github.com/styx00/Apache-Vulns
+[submodule "Sublist3r"]
+	path = Sublist3r
+	url = https://github.com/aboul3la/Sublist3r
