@@ -16,3 +16,6 @@
 [submodule "Penetration-Testing-Toolkit"]
 	path = Penetration-Testing-Toolkit
 	url = https://github.com/xl7dev/Penetration-Testing-Toolkit
+[submodule "LaZagne"]
+	path = LaZagne
+	url = https://github.com/xl7dev/LaZagne
