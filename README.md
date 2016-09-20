@@ -15,5 +15,6 @@
 * https://github.com/frdmn/findmyhash
 * https://github.com/matugm/dirfuzz (renamed ruby-dirfuzz)
 * https://github.com/trustedsec/ptf
-* https://github.com/laramies/theHarvester theHarvester-laramies
-* https://github.com/opsdisk/theHarvester theHarvester-opsdisk
+* https://github.com/laramies/theHarvester (renamed theHarvester-laramies)
+* https://github.com/opsdisk/theHarvester (renamed theHarvester-opsdisk)
+* https://github.com/evilpacket/DVCS-Pillage

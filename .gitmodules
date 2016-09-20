@@ -49,3 +49,6 @@
 [submodule "theHarvester-opsdisk"]
 	path = theHarvester-opsdisk
 	url = https://github.com/opsdisk/theHarvester
+[submodule "DVCS-Pillage"]
+	path = DVCS-Pillage
+	url = https://github.com/evilpacket/DVCS-Pillage
