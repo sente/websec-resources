@@ -7,3 +7,6 @@
 [submodule "EmailHarvester"]
 	path = EmailHarvester
 	url = https://github.com/maldevel/EmailHarvester
+[submodule "routersploit"]
+	path = routersploit
+	url = https://github.com/reverse-shell/routersploit
