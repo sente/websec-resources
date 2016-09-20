@@ -1,0 +1,9 @@
+[submodule "webslayer"]
+	path = webslayer
+	url = https://github.com/Malphaet/webslayer
+[submodule "wfuzz"]
+	path = wfuzz
+	url = https://github.com/xmendez/wfuzz
+[submodule "EmailHarvester"]
+	path = EmailHarvester
+	url = https://github.com/maldevel/EmailHarvester
