@@ -18,3 +18,5 @@
 * https://github.com/laramies/theHarvester (renamed theHarvester-laramies)
 * https://github.com/opsdisk/theHarvester (renamed theHarvester-opsdisk)
 * https://github.com/evilpacket/DVCS-Pillage
+* https://github.com/jordanbtucker/dvcs-ripper
+* https://github.com/kootenpv/gittyleaks

@@ -52,3 +52,15 @@
 [submodule "DVCS-Pillage"]
 	path = DVCS-Pillage
 	url = https://github.com/evilpacket/DVCS-Pillage
+[submodule "dvcs-ripper"]
+	path = dvcs-ripper
+	url = https://github.com/jordanbtucker/dvcs-ripper
+[submodule "gittyleaks"]
+	path = gittyleaks
+	url = https://github.com/kootenpv/gittyleaks
+[submodule "SimplyEmail"]
+	path = SimplyEmail
+	url = https://github.com/killswitch-GUI/SimplyEmail
+[submodule "discover"]
+	path = discover
+	url = https://github.com/leebaird/discover
