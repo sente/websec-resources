@@ -64,3 +64,12 @@
 [submodule "discover"]
 	path = discover
 	url = https://github.com/leebaird/discover
+[submodule "WhatsMyName"]
+	path = WhatsMyName
+	url = https://github.com/WebBreacher/WhatsMyName
+[submodule "emailwhois"]
+	path = emailwhois
+	url = https://github.com/WebBreacher/emailwhois
+[submodule "web2attack"]
+	path = web2attack
+	url = https://github.com/santatic/web2attack
