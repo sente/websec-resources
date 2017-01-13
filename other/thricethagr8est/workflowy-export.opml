@@ -1,0 +1,604 @@
+﻿<?xml version="1.0"?>
+<opml version="2.0">
+  <head>
+    <ownerEmail>anonymous</ownerEmail>
+  </head>
+  <body>
+    <outline text="Reconnaissance" >
+      <outline text="Passive/Semi-Passive" >
+        <outline text="Tools" >
+          <outline text="Discover - https://github.com/leebaird/discover" /></outline>
+        <outline text="Third Party Resources" >
+          <outline text="Locate Target Range" >
+            <outline text="ARIN - https://www.arin.net/" /></outline>
+          <outline text="Fingerprint Domain/Website" >
+            <outline text="Extended Network Information" >
+              <outline text="Central Ops - https://centralops.net/co/DomainDossier.aspx" />
+              <outline text="Robtex - https://www.robtex.net/" /></outline>
+            <outline text="Metasploit Scanning" >
+              <outline text="auxiliary/scanner/*" >
+                <outline text="portscan/tcp" />
+                <outline text="http/http_version" />
+                <outline text="http/tomcat_enum" />
+                <outline text="http/trace_axd" />
+                <outline text="Google - site:&amp;lt;result from above&amp;gt; filetype:axd OR inurl:trace.axd" /></outline>
+            </outline>
+            <outline text="Shodan - https://www.shodan.io/" >
+              <outline text="https://pen-testing.sans.org/blog/2015/12/08/effective-shodan-searches/" /></outline>
+            <outline text="Censys - https://www.censys.io/" />
+            <outline text="Zoomeye - https://www.zoomeye.org" />
+            <outline text="Netcraft - https://www.netcraft.com/" />
+            <outline text="DNS Enumeration/Information" >
+              <outline text="DNSdumpster - https://dnsdumpster.com/" />
+              <outline text="Subli3ster - https://github.com/aboul3la/Sublist3r" /></outline>
+          </outline>
+          <outline text="Social Media " >
+            <outline text="https://socialbearing.com/search/" /></outline>
+        </outline>
+        <outline text="Command Line Recon" >
+          <outline text="Network Information" >
+            <outline text="nslookup &amp;lt;target&amp;gt;" />
+            <outline text="dig &amp;lt;target&amp;gt;" /></outline>
+          <outline text="Security Mechanisms" >
+            <outline text="Halberd - Identify HTTP load balancers " >
+              <outline text="https://github.com//jmbr/halberd" /></outline>
+          </outline>
+          <outline text="Metadata" >
+            <outline text="exiftool" />
+            <outline text="strings" >
+              <outline text="strings -e b (big endian) OR -e l (little endian)" /></outline>
+            <outline text="Just-Metadata" >
+              <outline text="https://github.com/ChrisTruncer/Just-Metadata" /></outline>
+          </outline>
+        </outline>
+        <outline text="People Search" >
+          <outline text="Yahoo People Search - http://itools.com/tool/yahoo-people-search" />
+          <outline text="Switchboard - http://www.switchboard.com/person" />
+          <outline text="Google Finance - https://www.google.com/finance" />
+          <outline text="Zaba - http://www.zabasearch.com/" /></outline>
+      </outline>
+      <outline text="Active" >
+        <outline text="Command Line Recon Tools" >
+          <outline text="General Recon" >
+            <outline text="Recon-NG - https://bitbucket.org/LaNMaSteR53/recon-ng" >
+              <outline text="Automated with https://github.com/jhaddix/domain" /></outline>
+            <outline text="Domain/Subdomain Enumeration/Information" >
+              <outline text="Fierce - https://github.com/mschwager/fierce" />
+              <outline text="Subli3ster - https://github.com/aboul3la/Sublist3r" />
+              <outline text="EyeWitness - https://github.com/ChrisTruncer/EyeWitness" />
+              <outline text="Altdns - https://github.com/infosec-au/altdns" />
+              <outline text="Brute force subdomain list - https://github.com/danielmiessler/SecLists/blob/master/Discovery/DNS/sorted_knock_dnsrecon_fierce_recon-ng.txt" /></outline>
+          </outline>
+          <outline text="Nmap" >
+            <outline text="nmap -Pn -sSU -sV --top-ports 20 &amp;lt;target&amp;gt;" /></outline>
+          <outline text="Create Custom Worldlist" >
+            <outline text="cewl - https://digi.ninja/projects/cewl.php" />
+            <outline text="wget - http://wiki.securityweekly.com/wiki/index.php/Episode129" /></outline>
+          <outline text="Tools" >
+            <outline text="WPS (Wi-Fi) Information Gathering" >
+              <outline text="https://www.coresecurity.com/corelabs-research/open-source-tools/wpsig" /></outline>
+            <outline text="Viper - Automating Various Pentesting Tasks" >
+              <outline text="https://github.com/chrismaddalena/viper" /></outline>
+            <outline text="pyFOCA - Python version of FOCA" >
+              <outline text="https://github.com/altjx/ipwn#user-content-pyfoca" /></outline>
+            <outline text="truffleHog - https://github.com/dxa4481/truffleHog" />
+            <outline text="Discover - https://github.com/leebaird/discover" /></outline>
+        </outline>
+        <outline text="GUI" >
+          <outline text="FOCA - https://www.elevenpaths.com/labstools/foca/index.html" >
+            <outline text="EvilFOCA - https://github.com/ElevenPaths/EvilFOCA" /></outline>
+          <outline text="Maltego - http://sectools.org/tool/maltego/" />
+          <outline text="Dirbuster - http://sectools.org/tool/dirbuster/" /></outline>
+      </outline>
+      <outline text="Google Searching" >
+        <outline text="site:&quot;target name&quot; jobs,careers,openings,etc" />
+        <outline text="intitle:&quot;index of &amp;lt;Keyword&amp;gt;&quot;" >
+          <outline text="Keyword" >
+            <outline text=".bash_history" />
+            <outline text="etc/shadow" />
+            <outline text="finances.xls(x)" />
+            <outline text="htpasswd" />
+            <outline text="inurl:maillog" /></outline>
+        </outline>
+        <outline text="site:*.edu filetype:*.bak OR &amp;lt;keyword&amp;gt;" >
+          <outline text="Keyword" >
+            <outline text="*.conf" />
+            <outline text="*.backup" /></outline>
+        </outline>
+      </outline>
+      <outline text="Phishing " >
+        <outline text="&lt;b&gt;&lt;u&gt;Important: Immediately pivot from initial host&lt;/u&gt;&lt;/b&gt;" />
+        <outline text="Frameworks" >
+          <outline text="Gophish - https://github.com/gophish/gophish" />
+          <outline text="Phishing Frenzy - https://www.phishingfrenzy.com/" />
+          <outline text="King Phisher - https://github.com/securestate/king-phisher" />
+          <outline text="FiercePhish - https://github.com/Raikia/FiercePhish" />
+          <outline text="Empire - https://enigma0x3.net/2016/03/15/phishing-with-empire/" /></outline>
+        <outline text="Initial Access Techniques" >
+          <outline text="Malicious Office XLS macros" >
+            <outline text="https://www.shellntel.com/blog/2016/9/13/luckystrike-a-database-backed-evil-macro-generator" /></outline>
+        </outline>
+        <outline text="Tools for Internal Use" >
+          <outline text="Basic AUTH credential harvesting - https://github.com/ryhanson/phishery" /></outline>
+      </outline>
+    </outline>
+    <outline text="Enumeration" >
+      <outline text="Internal" >
+        <outline text="Scanning" >
+          <outline text="Map Internal Network" >
+            <outline text="Command Line Tools" >
+              <outline text="arp -a" />
+              <outline text="ip neigh show" />
+              <outline text="smbtree -NS 2&amp;gt;/dev/null" />
+              <outline text="nbtscan -r &amp;lt;current_IPrange&amp;gt;" />
+              <outline text="netdiscover -r &amp;lt;current_IPrange&amp;gt;" />
+              <outline text="nmap -n -Pn -T5 -sS &amp;lt;current_IPrange&amp;gt;" >
+                <outline text="nmap NSE scripts" >
+                  <outline text="NFS" />
+                  <outline text="SMB" /></outline>
+              </outline>
+            </outline>
+            <outline text="SMB" >
+              <outline text="SMBSpider - https://github.com/altjx/ipwn#user-content-smbspider" />
+              <outline text="More - https://pen-testing.sans.org/blog/2013/07/24/plundering-windows-account-info-via-authenticated-smb-sessions" /></outline>
+            <outline text="Find Routers - https://github.com/pentestmonkey/gateway-finder" /></outline>
+        </outline>
+        <outline text="Pivoting" >
+          <outline text="SSH Proxy Tunneling with Proxychain" >
+            <outline text="http://magikh0e.ihtb.org/pubPapers/ssh_gymnastics_tunneling.html" /></outline>
+        </outline>
+      </outline>
+      <outline text="External" >
+        <outline text="Scanning" >
+          <outline text="Nmap" />
+          <outline text="Masscan - https://github.com/robertdavidgraham/masscan" />
+          <outline text="Unicornscan - http://sectools.org/tool/unicornscan/" />
+          <outline text="OneTwoPunch" >
+            <outline text="Combines nmap and unicorn scan https://github.com/superkojiman/onetwopunch/blob/master/onetwopunch.sh" /></outline>
+        </outline>
+      </outline>
+    </outline>
+    <outline text="Exploitation" >
+      <outline text="External" >
+        <outline text="Attack Windows" >
+          <outline text="Full Guides" >
+            <outline text="http://resources.infosecinstitute.com/wp-content/uploads/Network-Fingerprinting-and-Exploitation1.pdf" /></outline>
+        </outline>
+        <outline text="Attack Linux" >
+          <outline text="Full Guides" >
+            <outline text="http://resources.infosecinstitute.com/wp-content/uploads/Network-Fingerprinting-and-Exploitation1.pdf" /></outline>
+        </outline>
+        <outline text="Attack Web Applications" >
+          <outline text="Full Attack Frameworks" >
+            <outline text="Offensive Web Testing Framework - https://owtf.github.io/" />
+            <outline text="Web2attack - https://github.com/santatic/web2attack" />
+            <outline text="EaST - Exploits And Security Tool Framework" >
+              <outline text="https://github.com/C0reL0ader/EaST" /></outline>
+            <outline text="Attack WAF" >
+              <outline text="WAFNinja - https://github.com/khalilbijjou/WAFNinja" />
+              <outline text="My Guide: http://pastebin.com/bUrGCYxE" /></outline>
+          </outline>
+          <outline text="Steal HTTP/S Session Cookies" >
+            <outline text="https://github.com/EnableSecurity/surfjack" /></outline>
+          <outline text="XSS Scanner" >
+            <outline text="xsscrapy - https://github.com/DanMcInerney/xsscrapy" /></outline>
+          <outline text="XSS/Bypass Techniques" >
+            <outline text="Beat XSS Filters" >
+              <outline text="http://brutelogic.com.br/blog/the-easiest-way-to-bypass-xss-mitigations/" /></outline>
+            <outline text="XSS Cheatsheet" >
+              <outline text="http://brutelogic.com.br/blog/cheat-sheet/" /></outline>
+          </outline>
+          <outline text="WAF Bypass" >
+            <outline text="http://securityidiots.com/Web-Pentest/WAF-Bypass/waf-bypass-guide-part-1.html" /></outline>
+          <outline text="Attack BASIC Auth" >
+            <outline text="Burp - http://www.smeegesec.com/2012/02/attacking-basic-authentication-with.html" />
+            <outline text="Ncrack (supports multiple protocols) - https://nmap.org/ncrack/" /></outline>
+          <outline text="Methodologies - https://blog.zsec.uk/ltr101-methodologies/" /></outline>
+        <outline text="Attack OWA/Exchange" >
+          <outline text="Malicious Outlook Rules - https://silentbreaksecurity.com/malicious-outlook-rules/" />
+          <outline text="Ruler - Abuse Exchange services - https://github.com/sensepost/ruler" />
+          <outline text="MailSniper - Search users mailbox - http://www.blackhillsinfosec.com/?p=5296" /></outline>
+        <outline text="Web Vulnerability Scanners" >
+          <outline text="Burp - https://portswigger.net/burp/" >
+            <outline text="Author's Guide: http://pastebin.com/nNHYP9Jd" /></outline>
+          <outline text="Wapiti http://wapiti.sourceforge.net/" />
+          <outline text="w3af - http://w3af.org/" />
+          <outline text="Nikto -https://cirt.net/Nikto2" /></outline>
+        <outline text="Command Line Tools" >
+          <outline text="CMSmap" >
+            <outline text="https://github.com/Dionach/CMSmap" /></outline>
+          <outline text="WPscan" >
+            <outline text="https://wpscan.org/" /></outline>
+          <outline text="Joomscan" >
+            <outline text="https://www.owasp.org/index.php/Category:OWASP_Joomla_Vulnerability_Scanner_Project" /></outline>
+        </outline>
+        <outline text="Wireless Exploitation" >
+          <outline text="AirVentriloquest - Aircrack patch for WPA/2 packet injection" >
+            <outline text=" https://github.com/Caesurus/airventriloquist" /></outline>
+          <outline text="Fluxion - MiTM WPA/2 Networks" >
+            <outline text="https://github.com/deltaxflux/fluxion" /></outline>
+        </outline>
+      </outline>
+      <outline text="Internal " >
+        <outline text="LAN Attacks" >
+          <outline text="Attack Windows" >
+            <outline text="Attack Active Directory " >
+              <outline text="Blood Hound - https://github.com/adaptivethreat/BloodHound" />
+              <outline text="CrackMapExec - https://github.com/byt3bl33d3r/CrackMapExec" />
+              <outline text="EmPyre - http://www.rvrsh3ll.net/blog/empyre/empyre-engaging-active-directory/" />
+              <outline text="Red Teaming AD (PDF) " >
+                <outline text="https://adsecurity.org/wp-content/uploads/2016/08/DEFCON24-2016-Metcalf-BeyondTheMCSE-RedTeamingActiveDirectory.pdf" /></outline>
+            </outline>
+            <outline text="Attack SQL Server" >
+              <outline text="PowerUpSQL - https://github.com/NetSPI/PowerUpSQL" /></outline>
+            <outline text="Python" >
+              <outline text="Command Line (Python Interpreter)" >
+                <outline text="Scapy advanced network attacks " >
+                  <outline text="https://packetstormsecurity.com/files/36839/blackmagic.txt.html" /></outline>
+                <outline text="Local Python Server " >
+                  <outline text="Serve Shells/Exploits" >
+                    <outline text="Python -M SimpleHTTPServer &amp;lt;port&amp;gt;" /></outline>
+                </outline>
+                <outline text="Python TTY Reverse Shell IPv6" >
+                  <outline text="https://eelsivart.blogspot.com/2015/02/python-tty-reverse-shell-over-ipv6-one.html" /></outline>
+                <outline text="Metasploit In-Memory Python Interpreter " >
+                  <outline text="https://github.com/rapid7/metasploit-framework/wiki/Python-Extension" /></outline>
+              </outline>
+            </outline>
+            <outline text="Attack Tools" >
+              <outline text="Responder - https://github.com/SpiderLabs/Responder" />
+              <outline text="Impacket - https://github.com/CoreSecurity/impacket" />
+              <outline text="SMBExec - https://github.com/pentestgeek/smbexec" />
+              <outline text="SMBSpider - https://github.com/altjx/ipwn#user-content-smbspider" />
+              <outline text="Basic AUTH credential harvesting - https://github.com/ryhanson/phishery" />
+              <outline text="WCE - http://www.ampliasecurity.com/research/windows-credentials-editor/" />
+              <outline text="Metasploit In-Memory Python Interpreter " >
+                <outline text="https://github.com/rapid7/metasploit-framework/wiki/Python-Extension" /></outline>
+              <outline text="Packet Crafting " >
+                <outline text="Scapy" >
+                  <outline text="https://thesprawl.org/research/scapy/" /></outline>
+                <outline text="Impacket" >
+                  <outline text="https://www.coresecurity.com/corelabs-research/open-source-tools/impacket" /></outline>
+              </outline>
+            </outline>
+            <outline text="Powershell" >
+              <outline text="PowerSploit - https://github.com/PowerShellMafia/PowerSploit" >
+                <outline text="More - https://www.hackingloops.com/powersploit-quick-shell-for-penetration-testing/" /></outline>
+              <outline text="EmPyre - http://www.rvrsh3ll.net/blog/empyre/empyre-engaging-active-directory/" />
+              <outline text="Bypass UAC -  https://github.com/FuzzySecurity/PowerShell-Suite/tree/master/Bypass-UAC" /></outline>
+            <outline text="PsExec" >
+              <outline text="http://techgenix.com/PsExec-Nasty-Things-It-Can-Do/" /></outline>
+          </outline>
+          <outline text="Privilege Escalation" >
+            <outline text="Windows" >
+              <outline text="NTLM Relay/NBNS Spoofing - https://foxglovesecurity.com/2016/01/16/hot-potato/" /></outline>
+            <outline text="Linux/Unix  " >
+              <outline text="Various exploits - https://github.com/FuzzySecurity/Unix-PrivEsc" />
+              <outline text="LinEnum- https://github.com/rebootuser/LinEnum" />
+              <outline text="Unix-privesc-check - http://pentestmonkey.net/tools/audit/unix-privesc-check" />
+              <outline text="Priv Esc/Enumeration - https://www.rebootuser.com/?p=1623" />
+              <outline text="Linux_Exploit_Suggester - https://github.com/PenturaLabs/Linux_Exploit_Suggester" /></outline>
+          </outline>
+        </outline>
+        <outline text="Bypass AV/IDS/App Whitelisting/UAC" >
+          <outline text="Egressing Bluecoat with CobaltStrike" >
+            <outline text=" https://cybersyndicates.com/2016/12/egressing-bluecoat-with-cobaltstike-letsencrypt/" /></outline>
+          <outline text="Beaconpire" >
+            <outline text="https://bluescreenofjeff.com/2016-11-29-beaconpire-cobalt-strike-and-empire-interoperability-with-aggressor-script/" /></outline>
+          <outline text="Bypass App Whitelisting" >
+            <outline text="https://enigma0x3.net/2016/11/21/bypassing-application-whitelisting-by-using-rcsi-exe/" /></outline>
+          <outline text="&quot;Fileless&quot; UAC Bypass" >
+            <outline text="https://enigma0x3.net/2016/08/15/fileless-uac-bypass-using-eventvwr-exe-and-registry-hijacking/" /></outline>
+          <outline text="Download/Execute Code via Command Line" >
+            <outline text="https://www.greyhathacker.net/?p=500" /></outline>
+        </outline>
+        <outline text="Reverse Shells" >
+          <outline text="http://bernardodamele.blogspot.com/2011/09/reverse-shells-one-liners.html" />
+          <outline text="http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet" />
+          <outline text="https://highon.coffee/blog/reverse-shell-cheat-sheet/" /></outline>
+        <outline text="Attack Routers" >
+          <outline text="Router Exploitation Framework - https://github.com/reverse-shell/routersploit" />
+          <outline text="Using Burp - https://www.cybrary.it/0p3n/pentesting-routers-1-dictionary-attack-burp-suite/" /></outline>
+      </outline>
+      <outline text="Find Exploits" >
+        <outline text="Web" >
+          <outline text="Exploit-db - https://www.exploit-db.com/" >
+            <outline text="From command line: https://www.exploit-db.com/searchsploit/" /></outline>
+          <outline text="Packet Storm - https://packetstormsecurity.com/files/tags/exploit" />
+          <outline text="SecurityFocus - http://www.securityfocus.com/bid" />
+          <outline text="EaST Framework Exploits - http://eastexploits.com/" />
+          <outline text="SecList - http://seclist.us/category/exploits" /></outline>
+        <outline text="NMap" >
+          <outline text="Scan systems with NMap, parse output to: CVE's, CWE's and DPE's" >
+            <outline text="https://github.com/NorthernSec/CVE-Scan" /></outline>
+          <outline text="Import, manage, and search with a local MongoDB instance" >
+            <outline text=" https://github.com/cve-search/cve-search" /></outline>
+        </outline>
+      </outline>
+    </outline>
+    <outline text="Post-Exploitation" >
+      <outline text="Attack Linux" >
+        <outline text="Command Line Password Sniffing" >
+          <outline text="Tcpdump" >
+            <outline text=" https://neverendingsecurity.wordpress.com/2015/03/14/tcpdump-tutorial-sniffing-and-analysing-packets-from-the-commandline/" />
+            <outline text="tcpdump -i eth0 port http or port ftp or port smtp or port imap or port pop3 -l -A | egrep –i 'pass=|pwd=|log=|login=|user=|username=|pw=|passw=|passwd=|password=||name=|name:|pass:|user:|username:|password:|login:|pass |user ' --color=auto --line-" /></outline>
+          <outline text="Ngrep" >
+            <outline text="ngrep -q -W byline &quot;GET|POST HTTP&quot;" /></outline>
+          <outline text="Dsniff - https://github.com/tecknicaltom/dsniff" />
+          <outline text="Netsh Trace (Windows only) - https://isc.sans.edu/diary/19409" /></outline>
+        <outline text="Network Authentication Cracking Tool - https://nmap.org/ncrack/" /></outline>
+      <outline text="Attack Windows" >
+        <outline text="Stealing/Cracking Passwords/Hashes " >
+          <outline text="Steal" >
+            <outline text="WCE -http://www.ampliasecurity.com/research/windows-credentials-editor/" />
+            <outline text="Extract Hashes from AD - https://blog.didierstevens.com/2016/07/13/" />
+            <outline text="Network Authentication Cracking Tool - https://nmap.org/ncrack/" />
+            <outline text="pysecdump - https://github.com/pentestmonkey/pysecdump" />
+            <outline text="Windows Creds - https://www.securusglobal.com/community/2013/12/20/dumping-windows-credentials/" />
+            <outline text="Network Password Recovery - http://www.nirsoft.net/utils/network_password_recovery.html" />
+            <outline text="" /></outline>
+          <outline text="Crack" >
+            <outline text="Windows Password Audit - https://blog.joelj.org/windows-password-audit-with-kali-linux/" />
+            <outline text="pysecdump - https://blog.didierstevens.com/2016/07/30/video-ntds-dit-extract-hashes-with-secretsdump-py/" />
+            <outline text="Hashcat - https://samsclass.info/123/proj10/px16-hashcat-win.htm" />
+            <outline text="Network Authentication Cracking Tool - https://nmap.org/ncrack/" /></outline>
+        </outline>
+      </outline>
+      <outline text="Attack Mac" >
+        <outline text="Empyre " >
+          <outline text="http://www.harmj0y.net/blog/empyre/building-an-empyre-with-python/" /></outline>
+      </outline>
+      <outline text="Attack Specific Software/Tools" >
+        <outline text="Privilege Escalation" >
+          <outline text="Splunk" >
+            <outline text="http://threat.tevora.com/penetration-testing-with-splunk-leveraging-splunk-admin-credentials-to-own-the-enterprise/" /></outline>
+        </outline>
+      </outline>
+      <outline text="Password/Hash Cracking " >
+        <outline text="Wordlists" >
+          <outline text="https://github.com/Mebus/cupp" />
+          <outline text="http://wiki.securityweekly.com/wiki/index.php/Episode129" />
+          <outline text="https://adaywithtape.blogspot.com.au/2011/05/creating-wordlists-with-crunch-v30.html" />
+          <outline text="https://wiki.skullsecurity.org/Passwords" /></outline>
+        <outline text="Password/Hash Cracking" >
+          <outline text="Guides" >
+            <outline text="Build Cracking Rig" >
+              <outline text="http://www.netmux.com/blog/how-to-build-a-password-cracking-rig" /></outline>
+            <outline text="Cracking 12 Character Passwords" >
+              <outline text="http://www.netmux.com/blog/cracking-12-character-above-passwords" /></outline>
+          </outline>
+          <outline text="Tools" >
+            <outline text="PACK (crack/obtain stats/) - https://thesprawl.org/projects/pack/" />
+            <outline text="Hashcat - https://hashcat.net/hashcat/" >
+              <outline text=" https://samsclass.info/123/proj10/px16-hashcat-win.htm" /></outline>
+            <outline text="Windows Password Audit - https://blog.joelj.org/windows-password-audit-with-kali-linux/" />
+            <outline text="pysecdump - https://blog.didierstevens.com/2016/07/30/video-ntds-dit-extract-hashes-with-secretsdump-py/" />
+            <outline text="GPU Cracking" >
+              <outline text="https://www.trustedsec.com/june-2016/introduction-gpu-password-cracking-owning-linkedin-password-dump/" /></outline>
+          </outline>
+          <outline text="Web Services " >
+            <outline text="CrackStation - https://crackstation.net/" />
+            <outline text="HashKiller - https://forum.hashkiller.co.uk/default.aspx" /></outline>
+        </outline>
+      </outline>
+      <outline text="Attack Frameworks/Tools " >
+        <outline text="PowerSploit - https://github.com/PowerShellMafia/PowerSploit" />
+        <outline text="Empire - http://www.powershellempire.com/" />
+        <outline text="Armitage - http://www.fastandeasyhacking.com/manual" >
+          <outline text="http://blog.cobaltstrike.com/2016/05/25/raffis-abridged-guide-to-cobalt-strike/" /></outline>
+        <outline text="Pwnd(dot)sh - https://github.com/SafeBreach-Labs/pwndsh" />
+        <outline text="CrackMapExec" >
+          <outline text="https://github.com/byt3bl33d3r/CrackMapExec/wiki" /></outline>
+      </outline>
+      <outline text="Privilege Escalation - Excellent Wiki - http://pwnwiki.io/#!index.md" >
+        <outline text="Windows" >
+          <outline text="Wiki - http://pwnwiki.io/#!privesc/windows/index.md" />
+          <outline text="SMB" >
+            <outline text="Relay Attacks/Spoofing" >
+              <outline text="Hot Potato - https://foxglovesecurity.com/2016/01/16/hot-potato/" />
+              <outline text="Chuckle " >
+                <outline text="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2015/november/introducing-chuckle-and-the-importance-of-smb-signing/" /></outline>
+              <outline text="More - https://pen-testing.sans.org/blog/2013/04/25/smb-relay-demystified-and-ntlmv2-pwnage-with-python" /></outline>
+          </outline>
+          <outline text="RDP " >
+            <outline text="https://onedrive.live.com/view.aspx?resid=F32A9F4F1477E49!109&amp;amp;ithint=file%2cdocx&amp;amp;app=Word&amp;amp;authkey=!ANzQTrmsTXSK9FM " /></outline>
+          <outline text="Various techniques/commands" >
+            <outline text="http://resources.infosecinstitute.com/wp-content/uploads/Post-Exploitation-without-Automated-Tools1.pdf" />
+            <outline text="http://www.slideshare.net/riyazwalikar/windows-privilege-escalation" /></outline>
+        </outline>
+        <outline text="Linux/Unix  " >
+          <outline text="Various exploits - https://github.com/FuzzySecurity/Unix-PrivEsc" />
+          <outline text="Wiki - http://pwnwiki.io/#!privesc/linux/index.md" />
+          <outline text="LinEnum- https://github.com/rebootuser/LinEnum" />
+          <outline text="Unix-privesc-check - http://pentestmonkey.net/tools/audit/unix-privesc-check" />
+          <outline text="Priv Esc/Enumeration - https://www.rebootuser.com/?p=1623" />
+          <outline text="Basic Linux Privilege Escalation" >
+            <outline text=" https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/" /></outline>
+          <outline text="Linux_Exploit_Suggester" >
+            <outline text="https://github.com/PenturaLabs/Linux_Exploit_Suggester" /></outline>
+          <outline text="Various techniques/commands " >
+            <outline text="https://room362.com/post/2011/2011-09-06-post-exploitation-command-lists/" /></outline>
+        </outline>
+      </outline>
+    </outline>
+    <outline text="Exfiltration" >
+      <outline text="Detection Capabilities" >
+        <outline text="Egress-Assess" >
+          <outline text="https://github.com/ChrisTruncer/Egress-Assess" /></outline>
+        <outline text="Outbound Port Detection (find unfiltered outbound connections)" >
+          <outline text="http://www.floyd.ch/?p=352" /></outline>
+      </outline>
+      <outline text="Network Exfiltration" >
+        <outline text="DNS" >
+          <outline text="dnsteal - https://github.com/m57/dnsteal" /></outline>
+      </outline>
+    </outline>
+    <outline text="Learning Resources " >
+      <outline text="Blogs" >
+        <outline text="Mubix - https://room362.com/" />
+        <outline text="OJ's Perspective - http://buffered.io/" />
+        <outline text="Carnal0wnage - http://carnal0wnage.attackresearch.com/" />
+        <outline text="Corelan - https://www.corelan.be/" />
+        <outline text="Daniel Miessler https://danielmiessler.com/information-security/" />
+        <outline text="NetSec Addict - http://netsec.ws/" />
+        <outline text="SecList - http://seclist.us/" />
+        <outline text="Notepad - https://bobloblaw.gitbooks.io/security/content/" /></outline>
+      <outline text="Getting Started" >
+        <outline text="Security " >
+          <outline text="http://www.pentester.tips/gettingstarted.html" />
+          <outline text="https://bobloblaw.gitbooks.io/security/content/" />
+          <outline text="https://www.reddit.com/r/HowToHack/comments/2c8d1p/free_online_ethical_hacking_courses/" /></outline>
+        <outline text="Networking" >
+          <outline text="http://networkingprogramming.com/1024x768/index.html" /></outline>
+      </outline>
+      <outline text="OSCP Info " >
+        <outline text="http://buffered.io/posts/oscp-and-me/" />
+        <outline text="https://jivoi.github.io/2015/06/19/oscp-prepare/" />
+        <outline text="https://gnashsec.blogspot.com/2015/07/my-experience-with-pwk-and-oscp.html" /></outline>
+      <outline text="Video Series/Channels" >
+        <outline text="LiveOverflow - https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w" />
+        <outline text="Pentestit - https://www.youtube.com/user/PentestITLab/videos" /></outline>
+      <outline text="Hacking Labs/VMs" >
+        <outline text="Vulnerable Windows Environment - http://www.crowdfunder.co.uk/rastalabs" />
+        <outline text="Web Apps" >
+          <outline text="Web Security Labs - http://www.cis.syr.edu/~wedu/seed/web_security.html" />
+          <outline text="40 Vulnerable Sites" >
+            <outline text="https://www.bonkersabouttech.com/security/40-plus-list-of-intentionally-vulnerable-websites-to-practice-your-hacking-skills/392" /></outline>
+          <outline text="DVWS - https://github.com/interference-security/DVWS" />
+          <outline text="oxfat - https://0xf.at/" /></outline>
+        <outline text="Find more here" >
+          <outline text="https://skydogcon.blogspot.com/p/learning-resources.html" />
+          <outline text="https://blogs.sans.org/pen-testing/files/2013/06/PosterSide1.png" />
+          <outline text="http://www.amanhardikar.com/mindmaps/practice-links.html" /></outline>
+      </outline>
+      <outline text="Specific Topic Learning" >
+        <outline text="Web Application Security " >
+          <outline text="Solid Methodology - http://blog.zsec.uk/ltr101-method-to-madness/" />
+          <outline text="Introduction (left hand side) - http://securityidiots.com/index.html" />
+          <outline text="XSS" >
+            <outline text="Start here - http://brutelogic.com.br/blog/xss101/" />
+            <outline text="Practice XSS - https://xss-game.appspot.com/level1" >
+              <outline text="VM - https://www.vulnhub.com/entry/pentester-lab-web-for-pentester,71/" /></outline>
+          </outline>
+          <outline text="SQLi (SQL Injection)" >
+            <outline text="http://attack.samsclass.info/sqlol-raw/search-raw.htm" /></outline>
+          <outline text="Various Web Exploits - https://google-gruyere.appspot.com/part1" /></outline>
+        <outline text="Scripting/Coding" >
+          <outline text="Python" >
+            <outline text="Scapy - http://thesprawl.org/research/scapy/" >
+              <outline text=" https://bt3gl.github.io/black-hat-python-infinite-possibilities-with-the-scapy-module.html" /></outline>
+            <outline text="Full Python Course - https://www.codecademy.com/learn/python" /></outline>
+          <outline text="Exploit Development/Exploitation" >
+            <outline text="Modern Binary Exploitation - https://github.com/RPISEC/MBE" />
+            <outline text="https://www.peerlyst.com/posts/the-best-resources-for-learning-exploit-development" /></outline>
+          <outline text="Crypto" >
+            <outline text="https://littlemaninmyhead.wordpress.com/2015/09/28/so-you-want-to-learn-to-break-ciphers/" /></outline>
+        </outline>
+        <outline text="Malware Analysis/Reversing" >
+          <outline text="Start Here - https://github.com/tylerph3/awesome-reversing" />
+          <outline text="University Course - https://github.com/RPISEC/Malware" />
+          <outline text="Ray's World - http://rayseyfarth.com/" />
+          <outline text="Amanda -  http://amanda.secured.org/how-to-start-reverse-engineering-malware/" /></outline>
+        <outline text="Practice Phishing" >
+          <outline text="Morning Catch - http://blog.cobaltstrike.com/2014/08/06/introducing-morning-catch-a-phishing-paradise/" /></outline>
+      </outline>
+      <outline text="Free University Courses" >
+        <outline text="https://www.cs.fsu.edu/~redwood/OffensiveComputerSecurity/lectures.html" /></outline>
+      <outline text="Challenges" >
+        <outline text="SANS Holiday Hack Challenge - https://holidayhackchallenge.com/2016/" >
+          <outline text="Before 2014 - https://pen-testing.sans.org/holiday-challenge/2014" /></outline>
+        <outline text="PCAP Challenges" >
+          <outline text="https://github.com/aeibrahim/wireshark_challenge" />
+          <outline text="https://www.honeynet.org/challenges" /></outline>
+      </outline>
+      <outline text="Fun Reading List" >
+        <outline text="http://www.moserware.com/2009/06/first-few-milliseconds-of-https.html" /></outline>
+    </outline>
+    <outline text="Repos/Collection of Tools" >
+      <outline text="Large Toolset - https://awesomehacking.org/" />
+      <outline text="Large repo (many topics)" >
+        <outline text="https://github.com/nixawk/pentest-wiki" />
+        <outline text="https://github.com/Hack-with-Github/Awesome-Hacking" /></outline>
+      <outline text="Penetration Testing Tools" >
+        <outline text="Tons - https://github.com/enaqx/awesome-pentest" />
+        <outline text="Tons - https://github.com/Aptive/penetration-testing-tools" /></outline>
+      <outline text="Python" >
+        <outline text="Intro - https://github.com/PacktPublishing/Python-Journey-from-Novice-to-Expert" />
+        <outline text="Penetration Testing Tools - https://github.com/dloss/python-pentest-tools" />
+        <outline text="Python Forensics - https://github.com/PacktPublishing/Learning-Python-for-Forensics" /></outline>
+      <outline text="Reverse Engineering - https://github.com/tylerph3/awesome-reversing" /></outline>
+    <outline text="Complete Courses/Videos/Guides/Books" >
+      <outline text="Existing Full Guides (fantastic!)" >
+        <outline text="Pentest Wiki - https://github.com/nixawk/pentest-wiki" />
+        <outline text="Awesome Pentest - https://github.com/enaqx/awesome-pentest" /></outline>
+      <outline text="CTF " >
+        <outline text="Field Guide - https://trailofbits.github.io/ctf/" />
+        <outline text="Author's Guide - http://pastebin.com/DrsetKc8" />
+        <outline text="Resources" >
+          <outline text="http://resources.infosecinstitute.com/tools-of-trade-and-resources-to-prepare-in-a-hacker-ctf-competition-or-challenge/" /></outline>
+      </outline>
+      <outline text="Attack " >
+        <outline text="IPv6" >
+          <outline text="http://haxpo.nl/materials/haxpo2015ams/D3%20-%20R.%20Schaefer%20and%20J.%20Salazar%20-%20Pentesting%20in%20the%20Age%20of%20IPv6.pdf" /></outline>
+        <outline text="Windows" >
+          <outline text="Zero to Domain" >
+            <outline text="http://www.computerworld.com/article/2843632/security0/scenario-based-pen-testing-from-zero-to-domain-admin-with-no-missing-patches-required.html" /></outline>
+          <outline text="Network Fingerprinting and Exploitation - " >
+            <outline text="http://resources.infosecinstitute.com/wp-content/uploads/Network-Fingerprinting-and-Exploitation1.pdf" /></outline>
+        </outline>
+        <outline text="Linux" >
+          <outline text="Network Fingerprinting and Exploitation - " >
+            <outline text="http://resources.infosecinstitute.com/wp-content/uploads/Network-Fingerprinting-and-Exploitation1.pdf" /></outline>
+        </outline>
+      </outline>
+      <outline text="Courses" >
+        <outline text="Metasploit Unleashed - https://www.offensive-security.com/metasploit-unleashed/" />
+        <outline text="Pen Testing - https://www.cybrary.it/course/advanced-penetration-testing/" /></outline>
+      <outline text="Videos" >
+        <outline text="Advanced Threat Tactics " >
+          <outline text="http://blog.cobaltstrike.com/2015/09/30/advanced-threat-tactics-course-and-notes/" /></outline>
+      </outline>
+      <outline text="Books" >
+        <outline text="Advanced Penetration Testing for Highly Secured Environments  " >
+          <outline text="LARGE (!) PDF - https://news.asis.io/sites/default/files/%E2%80%8Cbook.pdf" /></outline>
+        <outline text="Multiple pentesting books - http://www.arthur-training.com/Downloads/ITT/" /></outline>
+      <outline text="How-To" >
+        <outline text="Evil Access Point - https://www.sensepost.com/blog/2013/rogue-access-points-a-how-to/" />
+        <outline text="DNS Phishing in Public Hotspots - https://www.exploit-db.com/docs/20875.pdf" />
+        <outline text="Various topics - https://bobloblaw.gitbooks.io/security/content/" /></outline>
+      <outline text="Misc. Resources" >
+        <outline text="Lectures/VMs/Videos (tons) - http://www.arthur-training.com/Downloads/" /></outline>
+    </outline>
+    <outline text="Cheatsheets" >
+      <outline text="Various Pentesting Tools" >
+        <outline text="https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/" /></outline>
+      <outline text="Powershell" >
+        <outline text="Mics Scripts - https://github.com/rvrsh3ll/Misc-Powershell-Scripts" />
+        <outline text="https://ramblingcookiemonster.github.io/images/Cheat-Sheets/powershell-cheat-sheet.pdf" /></outline>
+      <outline text="Python" >
+        <outline text="https://www.cheatography.com/davechild/cheat-sheets/python/" />
+        <outline text="2 - https://realpython.com/files/python_cheat_sheet_v1.pdf" />
+        <outline text="3 - https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf" />
+        <outline text="Shells - http://bernardodamele.blogspot.com/2011/09/reverse-shells-one-liners.html" /></outline>
+      <outline text="Netcat" >
+        <outline text="https://neverendingsecurity.wordpress.com/2015/04/13/netcat-commands-cheatsheet/" />
+        <outline text="https://www.securitaus.org/netcat/pentest/2016/05/23/netcat-cheat-sheet.html" /></outline>
+      <outline text="Tcpdump" >
+        <outline text="http://bencane.com/2014/10/13/quick-and-practical-reference-for-tcpdump/" />
+        <outline text="http://packetlife.net/media/library/12/tcpdump.pdf" /></outline>
+      <outline text="Collections of Cheatsheets " >
+        <outline text="https://github.com/jshaw87/Cheatsheets" />
+        <outline text="http://packetlife.net/library/cheat-sheets/" />
+        <outline text="http://www.danielowen.com/2017/01/01/sans-cheat-sheets/" />
+        <outline text="SANS - https://pen-testing.sans.org/resources/downloads" /></outline>
+    </outline>
+    <outline text="Detection/Remediation/Defending" >
+      <outline text="Detecting Meterpreter" >
+        <outline text="https://www.sans.org/reading-room/whitepapers/forensics/analysis-meterpreter-post-exploitation-35537" /></outline>
+      <outline text="Detecting Backdoors" >
+        <outline text="https://www.rawhex.com/2016/03/a-guide-to-recognising-backdoors-using-metasploitable-2/" /></outline>
+      <outline text="Detecting Malicious VBA Macros" >
+        <outline text="https://github.com/decalage2/oletools/wiki/mraptor" /></outline>
+    </outline>
+  </body>
+</opml>
