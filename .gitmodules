@@ -73,3 +73,6 @@
 [submodule "web2attack"]
 	path = web2attack
 	url = https://github.com/santatic/web2attack
+[submodule "Git_Pentesting_Toolkit"]
+	path = Git_Pentesting_Toolkit
+	url = https://github.com/ANK1036Official/Git_Pentesting_Toolkit
